@@ -25,8 +25,23 @@ export default function Navbar() {
 
                     <NavMenu>
                         <NavItem>
+                            <NavLinks to="home" >
+                                home
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="projects" >
+                                projects
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
                             <NavLinks to="about" >
-                                About
+                                about
+                            </NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="contact" >
+                                contact
                             </NavLinks>
                         </NavItem>
                     </NavMenu>
