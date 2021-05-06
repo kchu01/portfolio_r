@@ -71,4 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ### Resources
-* React Icons | https://react-icons.github.io/react-icons/
+* [React Icons](https://react-icons.github.io/react-icons/)
