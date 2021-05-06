@@ -8,7 +8,7 @@ import {
     NavMenu,
     NavItem,
     NavLinks
-} from '../NavbarElements'
+} from './NavbarElements'
 
 export default function Navbar() {
     return (
