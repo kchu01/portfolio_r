@@ -1,5 +1,5 @@
 import React from 'react'
-import { SidebarContainer, Icon, CloseIcon } from './SidebarElements'
+import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink } from './SidebarElements'
 
 export default function Sidebar() {
     return (
@@ -7,6 +7,19 @@ export default function Sidebar() {
             <Icon>
                 <CloseIcon />
             </Icon>
+            <SidebarWrapper>
+                <SidebarMenu>
+                    <SidebarLink to="project">
+                        project
+                    </SidebarLink>
+                    <SidebarLink to="about">
+                        about
+                    </SidebarLink>
+                    <SidebarLink to="contact">
+                        contact
+                    </SidebarLink>
+                </SidebarMenu>
+            </SidebarWrapper>
         </SidebarContainer>
     )
 }
