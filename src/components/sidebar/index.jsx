@@ -7,6 +7,19 @@ export default function Sidebar() {
             <Icon>
                 <CloseIcon />
             </Icon>
+            <SidebarWrapper>
+                <SidebarMenu>
+                    <SidebarLink to="project">
+                        project
+                    </SidebarLink>
+                    <SidebarLink to="about">
+                        about
+                    </SidebarLink>
+                    <SidebarLink to="contact">
+                        contact
+                    </SidebarLink>
+                </SidebarMenu>
+            </SidebarWrapper>
         </SidebarContainer>
     )
 }
