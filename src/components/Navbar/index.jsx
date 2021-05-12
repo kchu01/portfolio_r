@@ -10,7 +10,7 @@ import {
     NavLinks
 } from './NavbarElements'
 
-export default function Navbar() {
+export default function Navbar({ toggle }) {
     return (
         <>
             <Nav>
@@ -19,7 +19,7 @@ export default function Navbar() {
                         chukathy
                     </NavLogo>
 
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle} >
                         <FaBars />
                     </MobileIcon>
 
