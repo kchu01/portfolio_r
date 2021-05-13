@@ -15,6 +15,7 @@ export default function Navbar({ toggle }) {
         <>
             <Nav>
                 <NavbarContainer>
+
                     <NavLogo to="/">
                         chukathy
                     </NavLogo>

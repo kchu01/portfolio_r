@@ -10,22 +10,30 @@ import {
 
 export default function Sidebar({ isOpen, toggle }) {
     return (
+
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
+
             <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
+
             <SidebarWrapper>
+
                 <SidebarMenu>
-                    <SidebarLink to="project">
+                    <SidebarLink to="project" onClick={toggle}>
                         project
                     </SidebarLink>
-                    <SidebarLink to="about">
+
+                    <SidebarLink to="about" onClick={toggle}>
                         about
                     </SidebarLink>
-                    <SidebarLink to="contact">
+
+                    <SidebarLink to="contact" onClick={toggle}>
                         contact
                     </SidebarLink>
+
                 </SidebarMenu>
+
             </SidebarWrapper>
         </SidebarContainer>
     )
